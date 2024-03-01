@@ -1,0 +1,5 @@
+{
+    "configuration_name": "testConfiguration1",
+    "project_slug": "{{ cookiecutter.configuration_name.lower().replace(' ', '_') }}",
+    "author": "M. Lenterman"
+  }
