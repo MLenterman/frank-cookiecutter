@@ -4,7 +4,7 @@
     "configuration_name": "testConfiguration1",
     "project_slug": "{{ cookiecutter.instance_name.lower().replace(' ', '_') }}",
     "author": "M. Lenterman",
-    "using-docusaurus": "true",
+    "using_docusaurus": "true",
     "_copy_without_render": [
         ".github"
     ]
