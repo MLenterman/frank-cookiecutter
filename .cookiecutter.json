@@ -1,0 +1,12 @@
+{
+    "templates" : {
+        "frank-configuration": {
+            "path": "./frank-configuration",
+            "title": "frank-configuration"
+        },
+        "frank-instance": {
+            "path": "./frank-instance",
+            "title": "frank-instance"
+        }
+    }
+}
