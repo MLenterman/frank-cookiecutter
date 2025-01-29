@@ -1,12 +1,12 @@
 publiccodeYmlVersion: "0.2"
 # Instructies: https://github.com/OpenCatalogi/OpenCatalogiBundle/blob/main/docs/Publiccode.md
-name: {{ cookiecutter.instance_name }}
-url: "https://github.com/wearefrank/{{ cookiecutter.instance_name }}.git"
+name: %%INSTACE_NAME%%
+url: "https://github.com/Sudwest-Fryslan/%%INSTACE_NAME%%.git"
 softwareVersion: "${instance_version}"    # Optional
 releaseDate: ${versionDate_yyyymmdd}
-applicationSuite: frankframework
+applicationSuite: het-integratie-platform
 platforms:
-  - frankframework
+  - frank-framework
 
 categories:
   - translation
@@ -20,10 +20,10 @@ softwareType: "standalone/other"
 description:
   en:
     shortDescription: >
-      The {{ cookiecutter.instance_name }} component is an integration component.
+      The %%INSTACE_NAME%% component is an integration component.
 
     longDescription: >
-      The {{ cookiecutter.instance_name }} component is an integration component.
+      The %%INSTACE_NAME%% component is an integration component.
 
     features:
       - Statelessness
@@ -39,7 +39,7 @@ maintenance:
   type: "community"
 
   contacts:
-    - name: Sander Bult
+    - name: Eduard Witteveen
 
 localisation:
   localisationReady: true
@@ -51,7 +51,7 @@ nl:
   commonground:
     - layerType: "integration"
     - installationType: "docker"
-    - intendedOrganisations: "https://github.com/wearefrank"
+    - intendedOrganisations: "https://github.com/Sudwest-Fryslan"
   gemma:
     bedrijfsfuncties:
       - "sadsad"

@@ -1,15 +1,13 @@
 <Context>
-    <JarScanner scanClassPath="false" scanAllFiles="false" scanAllDirectories="false"/>
-
     <Resource
-        name="jdbc/{{ cookiecutter.instance_name_lc }}"
+        name="jdbc/%%INSTANCE_NAME_LOWERCASE%%"
         type="org.h2.jdbcx.JdbcDataSource"
         factory="org.apache.naming.factory.BeanFactory"
-        URL="jdbc:h2:/opt/frank/h2/{{ cookiecutter.instance_name_lc }}"
+        URL="jdbc:h2:/opt/frank/h2/%%INSTANCE_NAME_LOWERCASE%%"
     />
 
     <Resource
-        name="jdbc/{{ cookiecutter.instance_name_lc }}-postgresql"
+        name="jdbc/%%INSTANCE_NAME_LOWERCASE%%-postgresql"
         auth="Container"
         factory="org.apache.naming.factory.BeanFactory"
         type="org.postgresql.xa.PGXADataSource"
