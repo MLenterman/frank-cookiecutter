@@ -1,3 +1,4 @@
+{% raw %}
 name: Bump F!F Version
 
 on:
@@ -19,3 +20,4 @@ jobs:
       dockerhub-token: ${{ secrets.DOCKERHUB_TOKEN }}
     with:
       ff-version-tag: ${{ github.event.inputs.ff-version-tag || 'latest' }}
+{% endraw %}
